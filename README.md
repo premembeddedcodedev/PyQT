@@ -1,14 +1,25 @@
 Notes:
 #https://www.youtube.com/watch?v=nZ_sCQdYEqE
 
-1. Open Qt Designer
+GUI Object creation:
 
-2. create all the buttons and lists and layouts
+	1. Open Qt Designer
 
-3. it will generate ui .file
-	pyuic5 -x sample.ui -o sample.py
+	2. create all the buttons and lists and layouts
 
-4. convert ui file to python file
+	3. it will generate ui .file
+		pyuic5 -x sample.ui -o sample.py
 
-5. run using python
+	4. convert ui file to python file
 
+	5. run using python
+
+Command line Object creation:
+
+	1. python3 -m venv testvenv
+
+	2. source testvenv/bin/activate
+
+	3. deactivate
+
+	4. https://build-system.fman.io/pyqt5-tutorial
