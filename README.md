@@ -14,7 +14,7 @@ GUI Object creation:
 
 	5. run using python
 
-Command line Object creation:
+Python based Object creation:
 
 	1. python3 -m venv testvenv
 
